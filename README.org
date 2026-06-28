@@ -1,0 +1,14 @@
+* usher
+
+A lightweight, single-tenant OpenID Provider (OIDC) written in Common Lisp:
+RS256-signed ID/access tokens with JWKS, Authorization Code + PKCE, refresh-token
+rotation, TOTP two-factor with single-use backup codes, email verification and
+password-reset flows, social login (GitHub/Google identity brokering), and
+pluggable in-memory / SQLite / PostgreSQL storage. Terminates TLS 1.3 in-process
+via pure-tls, or embeds in another app as a library (usher/core).
+
+|---------+---------------------------------------------------|
+| source  | git:https://cave.moxielogic.com/atgreen/usher.git |
+| commit  | 0000000                                           |
+| systems | usher usher/core                                  |
+|---------+---------------------------------------------------|
