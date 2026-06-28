@@ -9,6 +9,6 @@ via pure-tls, or embeds in another app as a library (usher/core).
 
 |---------+---------------------------------------------------|
 | source  | git:https://cave.moxielogic.com/atgreen/usher.git |
-| commit  | ebcd3ea                                           |
+| commit  | c997f42                                           |
 | systems | usher usher/core                                  |
 |---------+---------------------------------------------------|
